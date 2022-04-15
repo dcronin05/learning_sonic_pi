@@ -1,9 +1,7 @@
-use_synth :dpulse
+use_synth :piano
 
-play :Cb3, pan: -1
+play :Cb3, release: 3
 sleep 0.5
-play :Db3, amp: 2, pan: 1
+play :Db3, amp: 2, release: 2
 sleep 0.5
-
-use_synth :dpulse
-play :Es4, pan: -1
+play :Es4, release: 1
