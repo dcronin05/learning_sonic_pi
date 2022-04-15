@@ -1,4 +1,9 @@
-live_loop :snare_loop do
-        play rrand_i(60, 90)
-        sleep 0.2
-end
+use_synth :dpulse
+
+play :Cb3, pan: -1
+sleep 0.5
+play :Db3, amp: 2, pan: 1
+sleep 0.5
+
+use_synth :dpulse
+play :Es4, pan: -1
